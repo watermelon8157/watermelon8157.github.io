@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 import charactersJson from "@/assets/charactersCard/characters.json";
 import { findIndex } from "lodash-es";
 
@@ -19,7 +19,14 @@ const characters = ref(charactersJson);
 const tierA = ref(false);
 const tierS = ref(false);
 const tierSS = ref(true);
+const homeLoding = ref(true);
 const WifeCardList = ref([]);
+
+onMounted(() => {
+  setTimeout(() => {
+    homeLoding.value = false;
+  }, 500);
+});
 
 function showCards(pTier: any) {
   if (pTier.tier === "A" && tierA.value) {
@@ -61,22 +68,22 @@ function showCardCount(pCard: any) {
         </span>
       </div>
     </div>
-    <div class="row">
+    <div v-if="!homeLoding" class="row">
       <template v-for="Wife in characters">
         <div
           v-for="WifeCards in Wife.cards"
-          class="col-1 m-4"
+          class="col-6 col-md-4 col-lg-3 col-xl-2 p-2"
           :class="{ 'd-none': !showCards(WifeCards) }"
           :key="'Wife' + Wife.id + 'WifeCards' + WifeCards.id"
         >
-          <input
-            class="d-none"
-            type="checkbox"
-            v-model="WifeCardList"
-            :id="WifeCards.image"
-            :value="WifeCards.image"
-          />
           <label class="form-check-label position-relative" :for="WifeCards.image">
+            <input
+              class="d-none"
+              type="checkbox"
+              v-model="WifeCardList"
+              :id="WifeCards.image"
+              :value="WifeCards.image"
+            />
             <img
               :src="imageModules[Iimgpath + WifeCards.image]"
               :style="{ filter: showCard(WifeCards) }"
