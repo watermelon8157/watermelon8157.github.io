@@ -1,0 +1,1 @@
+const a="/hbr/assets/RKayamoriCombat2023_R3_Thumbnail-14cb81e6.webp";export{a as default};

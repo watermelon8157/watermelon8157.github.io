@@ -1,0 +1,1 @@
+const a="/hbr/assets/MYanagiPunk_R3_Thumbnail-9dd36034.webp";export{a as default};

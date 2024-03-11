@@ -1,0 +1,1 @@
+const a="/hbr/assets/CMatsuokaDefault_R3_Thumbnail-96cb10fd.webp";export{a as default};

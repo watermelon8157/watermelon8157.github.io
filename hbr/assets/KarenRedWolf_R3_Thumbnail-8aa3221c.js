@@ -1,0 +1,1 @@
+const e="/hbr/assets/KarenRedWolf_R3_Thumbnail-43c8c684.webp";export{e as default};

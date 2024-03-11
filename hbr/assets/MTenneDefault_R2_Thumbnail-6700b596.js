@@ -1,0 +1,1 @@
+const e="/hbr/assets/MTenneDefault_R2_Thumbnail-16470fba.webp";export{e as default};

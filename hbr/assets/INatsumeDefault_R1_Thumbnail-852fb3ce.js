@@ -1,0 +1,1 @@
+const a="/hbr/assets/INatsumeDefault_R1_Thumbnail-6a1dd639.webp";export{a as default};

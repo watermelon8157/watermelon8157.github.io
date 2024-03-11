@@ -1,0 +1,1 @@
+const e="/hbr/assets/IMinaseDefault_R2_Thumbnail-b30eec44.webp";export{e as default};

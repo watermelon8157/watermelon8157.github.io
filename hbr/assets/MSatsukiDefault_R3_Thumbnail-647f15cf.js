@@ -1,0 +1,1 @@
+const a="/hbr/assets/MSatsukiDefault_R3_Thumbnail-fb331b32.webp";export{a as default};

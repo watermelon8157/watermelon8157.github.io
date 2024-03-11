@@ -2,6 +2,19 @@
 import { ref, computed } from "vue";
 import charactersJson from "@/assets/charactersCard/characters.json";
 import { findIndex } from "lodash-es";
+
+const Iimgpath = ref("/src/assets/charactersCard/charactersCard_Thumbnall/");
+const imageModulesGlob = import.meta.glob(
+  "/src/assets/charactersCard/charactersCard_Thumbnall/*.webp"
+);
+
+let imageModules: { [key: string]: any } = {};
+for (const path in imageModulesGlob) {
+  imageModulesGlob[path]().then((module: any) => {
+    imageModules[path] = module.default;
+  });
+}
+console.log(imageModules);
 const characters = ref(charactersJson);
 const tierA = ref(false);
 const tierS = ref(false);
@@ -30,25 +43,32 @@ function showCardCount(pCard: any) {
 }
 </script>
 <template>
-  <div class="d-flex flex-row bd-highlight mb-3">
-    <div class="mx-2">Tier :</div>
-    <div class="mx-2 form-check form-switch">
-      <input class="form-check-input" type="checkbox" v-model="tierA" id="tierA" />
-      <label class="form-check-label" for="tierA">A</label>
-    </div>
-    <div class="mx-2 form-check form-switch">
-      <input class="form-check-input" type="checkbox" v-model="tierS" id="tierS" />
-      <label class="form-check-label" for="tierS">S</label>
-    </div>
-    <div class="mx-2 form-check form-switch">
-      <input class="form-check-input" type="checkbox" v-model="tierSS" id="tierSS" />
-      <label class="form-check-label" for="tierSS">SS</label>
-    </div>
-  </div>
   <div class="container-fluid">
-    <template v-for="Wife in characters" :key="'Wife' + Wife.id">
-      <template v-for="WifeCards in Wife.cards" :key="'WifeCards' + WifeCards.id">
-        <span class="m-2" :class="{ 'd-none': !showCards(WifeCards) }">
+    <div class="row">
+      <div class="col-12 input-group mb-3">
+        <span class="mx-2">Tier :</span>
+        <span class="mx-2 form-check form-switch">
+          <input class="form-check-input" type="checkbox" v-model="tierA" id="tierA" />
+          <label class="form-check-label" for="tierA">A</label>
+        </span>
+        <span class="mx-2 form-check form-switch">
+          <input class="form-check-input" type="checkbox" v-model="tierS" id="tierS" />
+          <label class="form-check-label" for="tierS">S</label>
+        </span>
+        <span class="mx-2 form-check form-switch">
+          <input class="form-check-input" type="checkbox" v-model="tierSS" id="tierSS" />
+          <label class="form-check-label" for="tierSS">SS</label>
+        </span>
+      </div>
+    </div>
+    <div class="row">
+      <template v-for="Wife in characters">
+        <div
+          v-for="WifeCards in Wife.cards"
+          class="col-1 m-4"
+          :class="{ 'd-none': !showCards(WifeCards) }"
+          :key="'Wife' + Wife.id + 'WifeCards' + WifeCards.id"
+        >
           <input
             class="d-none"
             type="checkbox"
@@ -58,10 +78,10 @@ function showCardCount(pCard: any) {
           />
           <label class="form-check-label position-relative" :for="WifeCards.image">
             <img
-              :src="'charactersCard/' + WifeCards.image"
+              :src="imageModules[Iimgpath + WifeCards.image]"
               :style="{ filter: showCard(WifeCards) }"
             />
-            <!-- <span class="position-absolute bottom-0 end-0">
+            <span class="position-absolute bottom-0 end-0 d-none">
               <span
                 class="badge rounded-pill m-2"
                 :class="[showCardCount(WifeCards)]"
@@ -69,10 +89,10 @@ function showCardCount(pCard: any) {
               >
                 0
               </span>
-            </span> -->
+            </span>
           </label>
-        </span>
+        </div>
       </template>
-    </template>
+    </div>
   </div>
 </template>

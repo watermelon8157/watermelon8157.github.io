@@ -1,0 +1,1 @@
+const a="/hbr/assets/AKanzakiAgent_R3_Thumbnail-f22cd9ac.webp";export{a as default};

@@ -1,0 +1,1 @@
+const e="/hbr/assets/AliceCDefault_R2_Thumbnail-40674991.webp";export{e as default};
