@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import charactersJson from "@/assets/charactersCard/characters.json";
 import { findIndex } from "lodash-es";
 const characters = ref(charactersJson);
@@ -48,7 +48,7 @@ function showCardCount(pCard: any) {
   <div class="container-fluid">
     <template v-for="Wife in characters" :key="'Wife' + Wife.id">
       <template v-for="WifeCards in Wife.cards" :key="'WifeCards' + WifeCards.id">
-        <span v-if="showCards(WifeCards)" class="m-2">
+        <span class="m-2" :class="{ 'd-none': !showCards(WifeCards) }">
           <input
             class="d-none"
             type="checkbox"
