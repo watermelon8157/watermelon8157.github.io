@@ -1,1 +1,0 @@
-const a="/hbr/assets/IIshiiDefault_R1_Thumbnail-5df6a5ab.webp";export{a as default};

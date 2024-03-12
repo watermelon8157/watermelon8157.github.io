@@ -1,1 +1,0 @@
-const a="/hbr/assets/SHanamuraDefault_R2_Thumbnail-f93a9111.webp";export{a as default};

@@ -1,1 +1,0 @@
-const a="/hbr/assets/MKurosawaDefault_R2_Thumbnail-7c2235b1.webp";export{a as default};

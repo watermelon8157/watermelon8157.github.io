@@ -1,1 +1,0 @@
-const a="/hbr/assets/ADateDefault_R2_Thumbnail-697884cd.webp";export{a as default};

@@ -1,1 +1,0 @@
-const a="/hbr/assets/IrOhshimaYukata2023_R3_Thumbnail-f898f741.webp";export{a as default};

@@ -1,1 +1,0 @@
-const a="/hbr/assets/RKayamoriDefault_R3a_Thumbnail-d06bc2eb.webp";export{a as default};

@@ -1,1 +1,0 @@
-const a="/hbr/assets/TKunimiSwim2023_R3_Thumbnail-a63bb6ab.webp";export{a as default};

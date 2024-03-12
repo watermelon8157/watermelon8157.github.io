@@ -1,1 +1,0 @@
-const a="/hbr/assets/SMinaseSwim2022_R3_Thumbnail-9fa801cb.webp";export{a as default};

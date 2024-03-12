@@ -1,1 +1,0 @@
-const a="/hbr/assets/YBungoDefault_R1_Thumbnail-1fc52d27.webp";export{a as default};

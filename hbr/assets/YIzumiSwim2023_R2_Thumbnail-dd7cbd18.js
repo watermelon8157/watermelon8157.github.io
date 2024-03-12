@@ -1,1 +1,0 @@
-const e="/hbr/assets/YIzumiSwim2023_R2_Thumbnail-d0ec7341.webp";export{e as default};

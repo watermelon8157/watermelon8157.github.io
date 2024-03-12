@@ -1,1 +1,0 @@
-const a="/hbr/assets/TTojoSwim2022_R3_Thumbnail-5c9a6ecb.webp";export{a as default};

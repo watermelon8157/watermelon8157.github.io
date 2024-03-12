@@ -1,1 +1,0 @@
-const a="/hbr/assets/VBalakrishnanDefault_R2_Thumbnail-769ecbc9.webp";export{a as default};

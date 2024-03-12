@@ -1,1 +1,0 @@
-const e="/hbr/assets/MdAngelisDefault_R3_Thumbnail-147b40c5.webp";export{e as default};

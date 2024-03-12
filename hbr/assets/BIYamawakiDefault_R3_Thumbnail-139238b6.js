@@ -1,1 +1,0 @@
-const a="/hbr/assets/BIYamawakiDefault_R3_Thumbnail-949314a8.webp";export{a as default};

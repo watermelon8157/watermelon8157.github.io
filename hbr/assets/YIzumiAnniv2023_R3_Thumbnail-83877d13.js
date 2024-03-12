@@ -1,1 +1,0 @@
-const s="/hbr/assets/YIzumiAnniv2023_R3_Thumbnail-15d403cb.webp";export{s as default};
