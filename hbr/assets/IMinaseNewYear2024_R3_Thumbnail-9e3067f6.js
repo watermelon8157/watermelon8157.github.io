@@ -1,1 +1,0 @@
-const e="/hbr/assets/IMinaseNewYear2024_R3_Thumbnail-b49f90e5.webp";export{e as default};

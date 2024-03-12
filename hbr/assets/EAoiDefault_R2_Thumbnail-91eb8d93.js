@@ -1,1 +1,0 @@
-const a="/hbr/assets/EAoiDefault_R2_Thumbnail-58bab57e.webp";export{a as default};

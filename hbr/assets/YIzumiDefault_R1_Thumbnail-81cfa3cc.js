@@ -1,1 +1,0 @@
-const a="/hbr/assets/YIzumiDefault_R1_Thumbnail-05d57b35.webp";export{a as default};

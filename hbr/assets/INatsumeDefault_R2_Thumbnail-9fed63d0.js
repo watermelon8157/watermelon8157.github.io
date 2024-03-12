@@ -1,1 +1,0 @@
-const e="/hbr/assets/INatsumeDefault_R2_Thumbnail-e63e1dff.webp";export{e as default};

@@ -1,1 +1,0 @@
-const a="/hbr/assets/ByakkoBeast_R3_Thumbnail-57e512d3.webp";export{a as default};

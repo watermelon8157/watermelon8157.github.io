@@ -1,1 +1,0 @@
-const a="/hbr/assets/NiOhshimaDefault_R3_Thumbnail-316431bf.webp";export{a as default};

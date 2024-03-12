@@ -1,1 +1,0 @@
-const a="/hbr/assets/IMinaseDefault_R3_Thumbnail-019b5d73.webp";export{a as default};

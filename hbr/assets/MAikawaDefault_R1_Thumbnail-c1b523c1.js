@@ -1,1 +1,0 @@
-const a="/hbr/assets/MAikawaDefault_R1_Thumbnail-4894b530.webp";export{a as default};

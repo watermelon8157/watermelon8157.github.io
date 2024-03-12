@@ -1,1 +1,0 @@
-const a="/hbr/assets/MNikaidoDefault_R3_Thumbnail-4ddb7650.webp";export{a as default};

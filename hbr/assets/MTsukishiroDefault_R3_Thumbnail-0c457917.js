@@ -1,1 +1,0 @@
-const s="/hbr/assets/MTsukishiroDefault_R3_Thumbnail-23207961.webp";export{s as default};
