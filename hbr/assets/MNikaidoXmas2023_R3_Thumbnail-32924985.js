@@ -1,0 +1,1 @@
+const a="/hbr/assets/MNikaidoXmas2023_R3_Thumbnail-24ed5e10.webp";export{a as default};

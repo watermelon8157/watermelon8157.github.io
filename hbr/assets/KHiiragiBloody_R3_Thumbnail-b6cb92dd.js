@@ -1,0 +1,1 @@
+const a="/hbr/assets/KHiiragiBloody_R3_Thumbnail-f6ad7195.webp";export{a as default};

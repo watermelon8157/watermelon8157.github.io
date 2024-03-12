@@ -1,0 +1,1 @@
+const a="/hbr/assets/BiancaADefault_R2_Thumbnail-8582b15a.webp";export{a as default};

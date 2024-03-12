@@ -1,0 +1,1 @@
+const s="/hbr/assets/MTsukishiroDefault_R1_Thumbnail-df28162d.webp";export{s as default};

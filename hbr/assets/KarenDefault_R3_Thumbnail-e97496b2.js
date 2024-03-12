@@ -1,0 +1,1 @@
+const a="/hbr/assets/KarenDefault_R3_Thumbnail-cedda366.webp";export{a as default};

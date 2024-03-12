@@ -1,0 +1,1 @@
+const a="/hbr/assets/FMikotoDefault_R2_Thumbnail-aa44d854.webp";export{a as default};

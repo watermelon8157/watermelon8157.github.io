@@ -1,0 +1,1 @@
+const a="/hbr/assets/CSugaharaDefault_R1_Thumbnail-cb13644e.webp";export{a as default};

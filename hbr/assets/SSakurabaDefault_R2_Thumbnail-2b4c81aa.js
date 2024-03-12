@@ -1,0 +1,1 @@
+const a="/hbr/assets/SSakurabaDefault_R2_Thumbnail-1ef816df.webp";export{a as default};

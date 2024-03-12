@@ -1,0 +1,1 @@
+const e="/hbr/assets/TTojoDefault_R1_Thumbnail-ce437438.webp";export{e as default};

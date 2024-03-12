@@ -1,0 +1,1 @@
+const a="/hbr/assets/MSatsukiNewYear2023_R2_Thumbnail-8e2880a8.webp";export{a as default};

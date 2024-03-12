@@ -1,0 +1,1 @@
+const e="/hbr/assets/MKiryuDefault_R2_Thumbnail-e0154e4e.webp";export{e as default};

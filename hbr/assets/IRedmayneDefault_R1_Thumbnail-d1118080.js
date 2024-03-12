@@ -1,0 +1,1 @@
+const e="/hbr/assets/IRedmayneDefault_R1_Thumbnail-e3b235bc.webp";export{e as default};

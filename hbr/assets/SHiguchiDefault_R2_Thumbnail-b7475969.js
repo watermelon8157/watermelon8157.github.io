@@ -1,0 +1,1 @@
+const a="/hbr/assets/SHiguchiDefault_R2_Thumbnail-1f392d3f.webp";export{a as default};

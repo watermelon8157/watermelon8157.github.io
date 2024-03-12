@@ -1,0 +1,1 @@
+const a="/hbr/assets/HOgasawaraDefault_R1_Thumbnail-a106ceef.webp";export{a as default};

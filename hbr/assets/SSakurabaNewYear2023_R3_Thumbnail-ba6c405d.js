@@ -1,0 +1,1 @@
+const a="/hbr/assets/SSakurabaNewYear2023_R3_Thumbnail-4693ee88.webp";export{a as default};

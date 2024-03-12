@@ -1,0 +1,1 @@
+const a="/hbr/assets/RMurohushiDefault_R1_Thumbnail-fb78ae23.webp";export{a as default};

@@ -1,0 +1,1 @@
+const e="/hbr/assets/IIshiiDefault_R3_Thumbnail-05575c4e.webp";export{e as default};

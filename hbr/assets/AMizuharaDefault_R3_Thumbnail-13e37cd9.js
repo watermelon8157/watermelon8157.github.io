@@ -1,0 +1,1 @@
+const a="/hbr/assets/AMizuharaDefault_R3_Thumbnail-343df0f9.webp";export{a as default};

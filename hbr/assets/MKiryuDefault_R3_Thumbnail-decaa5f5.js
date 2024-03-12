@@ -1,0 +1,1 @@
+const a="/hbr/assets/MKiryuDefault_R3_Thumbnail-82a81deb.webp";export{a as default};

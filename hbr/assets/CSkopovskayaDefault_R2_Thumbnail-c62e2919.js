@@ -1,0 +1,1 @@
+const a="/hbr/assets/CSkopovskayaDefault_R2_Thumbnail-59d59694.webp";export{a as default};

@@ -1,0 +1,1 @@
+const e="/hbr/assets/CReaperDefault_R2_Thumbnail-059904ee.webp";export{e as default};
