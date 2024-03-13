@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as e,a as o}from"./index-148586eb.js";const t={},i={class:"about"},n=[o("h1",null,"This is an about page",-1)];const r=s(t,[["render",function(s,o){return a(),e("div",i,[...n])}],["__file","D:/GIT/watermelon_hbr.github.io/src/views/AboutView.vue"]]);export{r as default};
