@@ -1,1 +1,0 @@
-import{_ as s,o as e,c as r,a,b as o}from"./index-140f40cb.js";const t={class:"about"},i=["src"];const n=s({},[["render",function(s,n){return e(),r("div",t,[a(" BY 11 20240311 (BY 北極大西瓜 20240313) "),o("img",{src:"/LAYOUT.jpg"},null,8,i)])}],["__file","D:/GIT/watermelon_hbr.github.io/src/views/AboutView.vue"]]);export{n as default};
