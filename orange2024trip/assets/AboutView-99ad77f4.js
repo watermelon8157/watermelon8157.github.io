@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./index-a97e632c.js";const _={},a={class:"about"},c=s("h1",null,"This is an about page",-1),n=[c];function i(r,u){return t(),o("div",a,[...n])}const d=e(_,[["render",i],["__file","D:/GIT/watermelon_hbr.github.io/orange2024trip/src/views/AboutView.vue"]]);export{d as default};
