@@ -1,0 +1,1 @@
+import{d as s,a,b as i,g as l,i as t}from"./index-815939b5.js";const d={class:"container-fluid"},e=i("div",null,"BY 北極大西瓜 & 11 20240313",-1),n=["src"],r=s({__name:"AboutView",setup:s=>(s,r)=>(t(),a("div",d,[e,i("div",null,[i("img",{src:l("/HBRStyleChartSS/assets/LAYOUT-5cdaf6df.jpg")},null,8,n)])]))});export{r as default};

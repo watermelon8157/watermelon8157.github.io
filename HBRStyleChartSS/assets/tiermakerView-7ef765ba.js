@@ -1,0 +1,1 @@
+import{d as e,s as t,p as r,a as s,n as a,g as n,i}from"./index-815939b5.js";const o=e({__name:"tiermakerView",setup(e){const{windowHeight:o}=t(r());return(e,t)=>(i(),s("iframe",{src:"https://tiermaker.com/create/heaven-burns-red-ele-17315161?presentationMode=true",style:a([{width:"100%",border:"none"},{height:n(o)-8+"px"}])},null,4))}});export{o as default};
