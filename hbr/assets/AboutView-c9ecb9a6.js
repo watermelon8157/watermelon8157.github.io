@@ -1,1 +1,0 @@
-import{d as s,a,b as i,g as d,i as l}from"./index-f2b48eea.js";const e={class:"container-fluid"},n=i("div",null,"BY 北極大西瓜 & 11 20240313",-1),t=["src"],r=s({__name:"AboutView",setup:s=>(s,r)=>(l(),a("div",e,[n,i("div",null,[i("img",{src:d("/hbr/assets/LAYOUT-5cdaf6df.jpg")},null,8,t)])]))});export{r as default};
