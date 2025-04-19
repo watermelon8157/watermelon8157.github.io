@@ -2,7 +2,7 @@ import os
 
 def get_image_files():
     # 定義圖片檔案的副檔名
-    image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp')
+    image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.webp','.heic')
     image_files = []
 
     # 遍歷資料夾內的所有檔案
