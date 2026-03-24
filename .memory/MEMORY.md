@@ -1,11 +1,20 @@
 # Repository Memory
 
-這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
+## Stable Context
+- 目前尚未從日誌或手動筆記中萃取到任何可確認的長期穩定規則、決策或共通慣例。  
+- 若未來出現持續重複的行為模式或明確的 repo 習慣，將於此節補充。
 
-尚未建立整理後的長期 context。
+## Recent Themes
+- 最近 30 天內的 daily snapshot（2026‑03‑24）未偵測到任何跨 issue 主題或重複出現的討論。  
+- 因缺乏可辨識的主題，暫無可列入的近期關注點。
 
-請先產生 daily snapshots，再整理成這份 MEMORY.md：
+## Constraints
+- **資料來源限制**：所有資訊必須以 GitHub issue / comment 為原始依據，手動筆記僅作為輔助摘要。  
+- **更新頻率**：若 issue 活動稀少，記憶更新將延後至下一輪可用資料出現。  
+- **不確定性**：目前缺乏足夠證據支撐任何具體限制或規則，需持續觀察。
 
-- 觸發 `.github/workflows/compact-memory.yml`
-- 執行 `node .github/scripts/memory/compact-memory.mjs`
-- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
+## Open Loops
+- **待補充的 Issue 資料**：目前沒有可用的 issue，需等待未來的 issue 更新後再進行整理與歸納。  
+- **未確定的長期規則**：若日後出現重複出現的行為或決策，需評估其是否可納入 Stable Context。  
+
+> **備註**：以上內容基於目前可取得的記憶快照與手動筆記。若有新資訊產生，請重新執行記憶蒸餾流程以更新本文件。
