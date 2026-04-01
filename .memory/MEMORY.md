@@ -1,21 +1,11 @@
 # Repository Memory
 
-## Stable Context
-- 目前尚未在 issue 中觀測到任何可視為長期穩定的規則、決策或慣例。  
-- 共享手動筆記 (`shared/manual.md`) 中列出的 **「穩定規則、長期決策、常見限制、repo 習慣」** 為未來可填寫的框架，現階段尚無具體內容可納入。
+這份檔案是從 `daily/*.md` 蒸餾出來的長期 memory。
 
-## Recent Themes
-- **Lobster‑01（西瓜蝦）** 於 2026‑03‑24 建立了「西瓜蝦 agent」的角色與技能描述，並在 2026‑03‑25 仍保持活躍，等待 Telegram 需求的轉換。  
-- 連續多日（2026‑03‑25 至 2026‑03‑31）每日快照皆顯示 **「本次整理視窗沒有可用 issue」**，表示近期 repository 中缺乏待處理的 issue。  
-- 每日快照均未偵測到跨 issue 主題、決策或標籤，暗示目前的工作流處於靜止或等待新需求的階段。
+尚未建立整理後的長期 context。
 
-## Constraints
-- 目前未在 issue 或手動筆記中發現任何明確的限制條件（例如技術、時間、資源或合規限制）。  
-- 若未來出現限制，請於 `shared/manual.md` 中以條列方式記錄，以供龍蝦群持續參考。
+請先產生 daily snapshots，再整理成這份 MEMORY.md：
 
-## Open Loops
-- **等待新 issue**：所有每日快照皆指出「等待下一輪 issue 更新後再整理」，因此目前的開放迴路即是缺乏新需求的狀態。  
-- **Telegram 需求轉換**：Lobster‑01 正在等待 Telegram 相關需求的具體指令，尚未完成此任務。  
-- 若未來出現其他未完成事項或新決策，請於此節補充說明。  
-
-> **不確定性說明**：由於近期快照未提供任何具體 issue、決策或限制資訊，以上內容以觀測到的活動為基礎，若有遺漏或未捕捉的隱含資訊，請於手動筆記中補充，以便龍蝦群更新長期記憶。
+- 觸發 `.github/workflows/compact-memory.yml`
+- 執行 `node .github/scripts/memory/compact-memory.mjs`
+- 執行 `node .github/scripts/memory/summarize-memory-context.mjs --memory-dir .memory --output .memory/MEMORY.md`
