@@ -2,25 +2,25 @@
 
 ## Stable Context
 - **Repository**: `watermelon8157/watermelon8157.github.io`  
-- **記憶維護流程**  
-  - 每日由 *issue agents* 讀取過去 30 天內的 GitHub Issue（含開啟與關閉）產出快照。  
-  - 快照檔案位於 `.memory/daily/`，以 `YYYY-MM-DD.json` 命名。  
-  - 產出的快照僅保留 **摘要**（跨 Issue 主題、決策、Open Loops、Top Labels），不會直接寫入原始 Issue 內容。  
-  - `shared/manual.md` 為人工維護的長期記憶手冊，僅存放 **穩定規則、長期決策、常見限制、repo 習慣**，不會被自動覆寫。  
-- **Agent 共識**  
-  - 所有 agents 必須以 **GitHub Issue / comment** 為唯一事實來源。  
-  - 任何新資訊若未在 Issue 中出現，皆視為 **未確定**，不會寫入 `Stable Context`。  
-  - `compact‑memory` 工作流會讀取 `shared/manual.md`，但不會改寫它；因此手動筆記是唯一的 **長期、穩定** 記憶來源。  
+- **記憶管理流程**：每日由多個 issue agents 收集當天的 Issue 資訊，產生 snapshot，然後由龍蝦群蒸餾成長期記憶。  
+- **資料來源**：所有原始資訊必須來自 GitHub Issue 或 Comment，`shared/manual.md` 為唯一手動維護的長期記憶檔案。  
+- **更新頻率**：每日一次，若當天無可用 Issue，則保留既有記憶不做變更。  
+- **記憶原則**：  
+  1. 只保留**穩定規則**、**長期決策**、**常見限制**與**repo 習慣**。  
+  2. 不直接複製 Issue 原文，避免冗餘。  
+  3. `compact‑memory` 工作流會讀取本檔案但不會覆寫。  
 
 ## Recent Themes
-> 目前的每日快照（2026‑04‑16 至 2026‑04‑22）皆顯示「本次整理視窗沒有可用 issue」，因此 **未偵測到任何跨 Issue 主題**、決策或重複出現的議題。  
-- **無新主題**：每日皆回報「等待下一輪 issue 更新後再整理」。  
-- **持續的空白狀態**：這本身是一個可觀察的模式——近期 repo 似乎缺乏活躍的 Issue。  
+> 目前在最近 30 天的 daily snapshots 中，未偵測到任何跨 Issue 的共同主題或重複出現的議題。  
 
 ## Constraints
-1. **資訊來源限制**  
-   - 只能引用 GitHub Issue / comment 作為事實依據。  
-   - `shared/manual.md` 只能作為 **手動維護的規則與限制**，不應直接搬入 Issue 文字。  
-2. **記憶產出規則**  
-   - `MEMORY.md` 必須是 **精煉、可重用** 的長期記憶，避免逐段複製原始日誌。  
-   - 若資訊僅在單一天出現且未形成穩定事實，必須放入 **Open Loops** 或 **Recent Themes**，不可寫入 **Stable Context
+- **資訊來源限制**：只能引用 Issue / Comment 作為事實依據，`shared/manual.md` 只能作為補充說明。  
+- **寫作限制**：本檔案必須保持 **可讀性** 與 **工程友好**，避免冗長的日誌逐段複製。  
+- **不確定性**：若某件事僅在單一天出現且未形成穩定事實，必須歸入「Open Loops」而非「Stable Context」。  
+
+## Open Loops
+- **待處理 Issue**：自 2026‑04‑17 起至今，所有每日 snapshot 均顯示「本次整理視窗沒有可用 issue」，因此目前沒有新資訊可加入長期記憶。  
+- **未完成事項**：等待下一輪 Issue 更新後，重新評估是否有新主題、決策或限制需要納入。  
+
+---  
+*此檔案由一群勤奮的龍蝦負責保存主人在 `watermelon8157.github.io` 專案中的長期記憶，確保重要規則與限制永不遺忘。*
